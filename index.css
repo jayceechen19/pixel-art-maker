@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+#canvas{
+    width: 600px;
+    height: 600px;
+    margin:auto;
+}
+.pixel{
+    width:18px;
+    height:18px; 
+    background-color: white;
+    border-style: solid;
+    border-color:grey;
+    border-width:thin;
+    float:left;
+}
+.palette{
+    background-color: slategray;
+    width: 600px;
+    height: 100px;
+    margin:auto;
+}
+.paint{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin: 10px;
+}
